@@ -866,6 +866,10 @@ p {
   font-weight: 300;
 }
 
+iframe {
+  width: 100%;
+}
+
 .button {
   display: inline-block;
   margin-right: 10px;
