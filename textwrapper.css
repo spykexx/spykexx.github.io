@@ -44,7 +44,7 @@
 /*topToBottom Animation*/
 @-moz-keyframes topToBottom{
    0% { opacity: 0; }
-   5% { opacity: 0; -moz-transform: translateY(-50px); }
+   5% { opacity: 0; -moz-transform: translateY(-30px); }
    10% { opacity: 1; -moz-transform: translateY(0px); }
    25% { opacity: 1; -moz-transform: translateY(0px); }
    30% { opacity: 0; -moz-transform: translateY(50px); }
@@ -53,7 +53,7 @@
 }
 @-webkit-keyframes topToBottom{
    0% { opacity: 0; }
-   5% { opacity: 0; -webkit-transform: translateY(-50px); }
+   5% { opacity: 0; -webkit-transform: translateY(-30px); }
    10% { opacity: 1; -webkit-transform: translateY(0px); }
    25% { opacity: 1; -webkit-transform: translateY(0px); }
    30% { opacity: 0; -webkit-transform: translateY(50px); }
@@ -62,7 +62,7 @@
 }
 @-ms-keyframes topToBottom{
    0% { opacity: 0; }
-   5% { opacity: 0; -ms-transform: translateY(-50px); }
+   5% { opacity: 0; -ms-transform: translateY(-30px); }
    10% { opacity: 1; -ms-transform: translateY(0px); }
    25% { opacity: 1; -ms-transform: translateY(0px); }
    30% { opacity: 0; -ms-transform: translateY(50px); }
