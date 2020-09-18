@@ -101,14 +101,6 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-/* ==========================================================================
-   Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
-   ========================================================================== */
-
-
-
-
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -802,9 +794,6 @@ ol {
   display: none !important;
 }
 
-/* ==========================================================================
-   Start of custom Webflow CSS
-   ========================================================================== */
 body {
   background-color: #ffffff;
   font-family: "Open Sans", sans-serif;
