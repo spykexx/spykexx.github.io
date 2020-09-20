@@ -1273,6 +1273,27 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   box-shadow: 0 0 0 1px  rgba(60, 193, 202, .7);
   color: #fff;
 }
+
+.fa-twitter-square {
+  float: left;
+  font-size: 22px;
+  background-color: #fff;
+  color: #000;
+}
+
+.fa-facebook-square {
+  float: left;
+  font-size: 22px;
+  background-color: #fff;
+  color: #000;
+}
+
+.fa-pinterest-square{
+  float: left;
+  font-size: 22px;
+  background-color: #fff;
+  color: #000;
+}
 @media (max-width: 991px) {
   .navigation-link {
     color: hsla(0, 0%, 100%, 0.52);
