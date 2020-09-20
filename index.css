@@ -52,6 +52,14 @@ strong {
   font-weight: bold;
 }
 
+br {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+br {
+  display: block;
+}
+}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -961,7 +969,7 @@ iframe {
 }
 
 .section.boxed {
-  width: 50%;
+  width: 700px;
   background-color: rgba(37, 201, 208, 0.6);
   margin-left: auto;
   margin-right: auto;
@@ -1360,5 +1368,10 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 
   .grid-image {
     width: 35%;
+  }
+}
+@media  (max-width: 411px) {
+  .section.boxed {
+    padding: 60px 10px !important
   }
 }
