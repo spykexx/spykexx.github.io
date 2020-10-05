@@ -1239,9 +1239,10 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   -ms-transform: scale(0.01, 0.01);
   transform: scale(0.01, 0.01);
 }
-.fa-briefcase-medical {
+.home.fa-briefcase-medical {
   display: block;
   font-size: 40px;
+  width: 120px;
   margin: 20px auto;
   padding: 30px;
   border: 10px solid rgba(255, 255, 255, 1);
@@ -1250,21 +1251,10 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   box-shadow: 0 0 0 1px  rgba(60, 193, 202, .7);
   color: #fff;
 }
-.fa-clinic-medical {
+.home.fa-clinic-medical {
   display: block;
   font-size: 40px;
-  margin: 20px auto;
-  padding: 30px;
-  border: 10px solid rgba(255, 255, 255, 1);
-  border-radius: 50%;
-  background-color: rgba(60, 193, 202, .7);
-  box-shadow: 0 0 0 1px  rgba(60, 193, 202, .7);
-  color: #fff;
-}
-
-.fa-syringe {
-  display: block;
-  font-size: 40px;
+  width: 120px;
   margin: 20px auto;
   padding: 30px;
   border: 10px solid rgba(255, 255, 255, 1);
@@ -1274,6 +1264,41 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   color: #fff;
 }
 
+.home.fa-syringe {
+  display: block;
+  font-size: 40px;
+  width: 120px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 10px solid rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  background-color: rgba(60, 193, 202, .7);
+  box-shadow: 0 0 0 1px  rgba(60, 193, 202, .7);
+  color: #fff;
+}
+.serv.fas.fa-syringe {
+  display: block;
+  font-size: 40px;  
+  color: #3cc1ca;
+}
+
+.serv.fas.fa-band-aid{
+  display: block;
+  font-size: 40px;  
+  color: #3cc1ca;
+}
+
+.serv.fa-clinic-medical{
+  display: block;
+  font-size: 40px;  
+  color: #3cc1ca;
+}
+
+.serv.fa-briefcase-medical{
+  display: block;
+  font-size: 40px;  
+  color: #3cc1ca;
+}
 .fa-twitter-square {
   float: left;
   font-size: 22px;
