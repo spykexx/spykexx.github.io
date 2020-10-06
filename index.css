@@ -1276,6 +1276,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   box-shadow: 0 0 0 1px  rgba(60, 193, 202, .7);
   color: #fff;
 }
+
 .serv.fas.fa-syringe {
   display: block;
   font-size: 40px;  
@@ -1299,6 +1300,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   font-size: 40px;  
   color: #3cc1ca;
 }
+
 .fa-twitter-square {
   float: left;
   font-size: 22px;
