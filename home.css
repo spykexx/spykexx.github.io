@@ -376,6 +376,7 @@ body {
   .white-text {
     margin-bottom: 20px;
     color: #fff;
+    min-height: 90px;
   }
   
   .form {
