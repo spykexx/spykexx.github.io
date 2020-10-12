@@ -1401,7 +1401,7 @@ html {
 
     .servicehead {
         border: 1px solid #fff;
-        height: 20px;        
+        height: 20px !important        
     }
   }
   
@@ -1422,10 +1422,7 @@ html {
     .grid-image {
       width: 35%;
     }
-    .servicehead {
-        border: 1px solid #fff;
-        height: 20px;        
-    }
+    
   }
   @media  (max-width: 411px) {
     .section.boxed {
@@ -1436,14 +1433,17 @@ html {
 
   .servicehead {
       border: 0px solid #fff;
-      height: 90px;
+      height: 80px;
+      padding-top: 10px;
       
   }
 
   .servul {
     list-style: none;
     margin:0;
-   padding:0;
+    padding:15px;
+    border-radius: 15px;
+    border: 1px solid #3cc1ca;
   }
 
   .servlist {
