@@ -21,3 +21,24 @@ $(document).ready(function(){
       // do stuff      
     } 
   });
+
+$('li').click(function() {
+  var t = $(this).attr('id');
+  window.alert(t);
+  getID(t);
+})
+
+
+
+function getID(id) {
+  var id = id;
+  if ($('#description').is(':hidden')) {
+    $('#description').show();
+    $("body, html").animate({
+      scrollTop: $('#description').offset().top
+    }, 800);
+  }else {
+    $('#description').hide();
+  }
+  
+}
