@@ -91,11 +91,18 @@ function getIDMobile(id){
   }
   
   if (desc.is(':hidden')) {
+    desc.text(getText(id)); 
     desc.show();
     // $("body, html").animate({
     //   scrollTop: desc.offset().top
     // }, 800);
   }else {
     desc.hide();
+  }
+}
+
+function getText(id) {
+  if(id === "c1l1"){
+    return "True";
   }
 }
