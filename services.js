@@ -29,6 +29,17 @@ $(document).ready(function(){
     } 
   });
 
+  $(window).resize(function() {
+    if ($(window).width() < 767) {
+      $('#description').hide();
+   }
+   else {
+    $('#descriptionMobile1').hide();
+    $('#descriptionMobile2').hide();
+    $('#descriptionMobile3').hide();
+    $('#descriptionMobile4').hide();
+   }    
+  });
 $('li').click(function() {
   var t = $(this).attr('id');
   //window.alert(t);
