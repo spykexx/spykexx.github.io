@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
 
 $mailTo = "olsena@lmtdefense.com";
 $headers = "From: My Website";
-$txt = "You have received a new email from ".$name.".\n\n".$message
+$txt = "You have received a new email from ".$name.".\n\n".$message;
 mail($mailTo, $subject, $txt, $headers);
 header("Location: index.html");
 
