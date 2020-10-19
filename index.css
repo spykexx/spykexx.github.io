@@ -1088,11 +1088,11 @@ iframe {
 
 .section-subheading.center {
   color: #8e8e9c;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   text-align: center;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  
 }
 
 .section-subheading.center.off-white {
@@ -1180,6 +1180,7 @@ iframe {
 .fullwidth-image {
   width: 100%;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .white-text {

@@ -1,4 +1,4 @@
-
+var previous = "";
 
 $(document).ready(function(){
     $(".fa-chevron-down").click(function(){
@@ -42,6 +42,7 @@ $(document).ready(function(){
   });
 $('li').click(function() {
   var t = $(this).attr('id');
+  
   //window.alert(t);
   getSize(t);
   
@@ -61,21 +62,31 @@ function getSize(id) {
 function getIDDesktop(id) {
   var id = id;
   var desc = $('#description');
-  
+  var prevID = previous;
   if (desc.is(':hidden')) {
+    desc.text(getText(id)); 
     desc.show();
     $("body, html").animate({
       scrollTop: desc.offset().top
     }, 800);
   }else {
-    desc.hide();
+    if(id != prevID){
+      desc.text(getText(id)); 
+      desc.show();
+    $("body, html").animate({
+      scrollTop: desc.offset().top
+    }, 800);
+    }else {
+      desc.hide();
+    }
+    
   }
-  
+  previous = id;
 }
 
 function getIDMobile(id){
   var id = id;
-  
+  var prevID = previous;
   if(id.indexOf("c1") >= 0){
     var desc = $('#descriptionMobile1');
     $('#descriptionMobile2').hide();
@@ -108,12 +119,21 @@ function getIDMobile(id){
     //   scrollTop: desc.offset().top
     // }, 800);
   }else {
-    desc.hide();
+    if(id != prevID){
+      desc.text(getText(id)); 
+    desc.show();
+    }else{
+      desc.hide();
+    }
+    
   }
+  previous = id;
 }
 
 function getText(id) {
   if(id === "c1l1"){
     return "True";
+  }else {
+    return "False";
   }
 }
