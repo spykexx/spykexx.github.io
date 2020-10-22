@@ -40,7 +40,7 @@ $(document).ready(function(){
     $('#descriptionMobile4').hide();
    }    
   });
-$('li').click(function() {
+$('.servlist').click(function() {
   var t = $(this).attr('id');
   
   //window.alert(t);
