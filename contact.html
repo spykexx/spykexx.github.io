@@ -13,10 +13,7 @@
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="cntform.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-    <script
-      src="https://kit.fontawesome.com/b5dfeea415.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/b5dfeea415.js" crossorigin="anonymous"></script> 
     <script type="text/javascript">
       WebFont.load({
         google: {
@@ -40,7 +37,9 @@
   </head>
 
   <body>
-    <div class="navigation-bar w-nav">
+    <div
+      class="navigation-bar w-nav"
+    >
       <div class="w-container">
         <a class="brand-link w-nav-brand" href="/"
           ><img
@@ -49,35 +48,38 @@
           />
         </a>
         <nav>
+          
           <ul class="nav-links">
-            <li><a href="./index.html" id="home-link">Home</a></li>
-            <li><a href="./services.html" id="services-link">Services</a></li>
-            <li><a href="./about.html" id="about-link">About Us</a></li>
-            <li><a href="./contact.html" id="contact-link">Contact Us</a></li>
+              <li><a href="./index.html" id="home-link">Home</a></li>
+              <li><a href="./services.html" id="services-link">Services</a></li>
+              <li><a href="./about.html" id="about-link">About Us</a></li>     
+              <li><a href="./contact.html" id="contact-link">Contact Us</a></li>             
           </ul>
           <i class="fa fa-chevron-down"></i>
-        </nav>
+
+      </nav>  
+        </div>
+        
       </div>
     </div>
     <div class="section">
       <div class="container">
-        <form class="contact" action="contactform.php" method="POST">
-          <fieldset><input type="text" name="name" placeholder="Full Name" />
-          <input type="text" name="mail" placeholder="Your Email" />
-          <input type="text" name="subject" placeholder="Subject" />
-          <textarea
+        <form class="contact" action="contactform.php" method="POST" id="contact">
+          <fieldset><input type="text" name="name" placeholder="Full Name" /></fieldset>
+          <fieldset><input type="text" name="mail" placeholder="Your Email" /></fieldset>
+          <fieldset><input type="text" name="subject" placeholder="Subject" /></fieldset>
+          <fieldset><textarea
             name="message"
             id=""
             cols="30"
             rows="10"
             placeholder="Message"
-          ></textarea>
-          <button type="submit" name="submit">Send Mail</button>
+          ></textarea></fieldset>
+          <fieldset><button type="submit" name="submit">Send Mail</button></fieldset>
         </form>
       </div>
     </div>
     
-
     <iframe
       frameborder="0"
       style="width: 100%"
