@@ -795,7 +795,7 @@ ol {
 body {
   background-color: #ffffff;
   font-family: "Open Sans", sans-serif;
-  color: #6a859c;
+  color: rgb(78, 78, 78);
   font-size: 16px;
   line-height: 20px;
 }
@@ -1077,11 +1077,11 @@ iframe {
 }
 
 .section-subheading.center {
-  color: #8e8e9c;
+  color: rgb(78, 78, 78);
   font-size: 16px;
   font-weight: 300;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .section-subheading.center.off-white {
