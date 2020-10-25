@@ -832,20 +832,20 @@ h3 {
 h4 {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 700;
 }
 
 h5 {
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 20px;
+  margin-left: 45px;
   color: #676770;
   font-size: 18px;
-  line-height: 20px;
-  font-weight: 300;
-  letter-spacing: 4px;
-  text-transform: uppercase;
+  line-height: 18px;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
 h6 {
@@ -956,6 +956,7 @@ iframe {
 
 .section.accent {
   background-color: #192024;
+  margin-top: 30px;
 }
 
 .section.boxed {
@@ -1441,12 +1442,32 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   width: 80%;
 }
 
+.profile-text h5 p {
+  text-align: left;
+}
+
+.location-img {
+  width: 60%;
+  margin: auto;
+}
+
+.location-img img {
+  border-radius: 10px;
+}
+
+.location-text {
+  margin-top: 25px;
+}
+.location-text h5 {
+  color: #fff;
+  margin: auto;
+  font-size: 16px;
+}
 @media (max-width: 411px) {
   .profile-img {
     margin: auto;
     width: 40%;
     height: 40%;
-
     float: none;
   }
 
@@ -1460,5 +1481,16 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .profile-text h3 {
     font-size: 16px;
     color: #000;
+  }
+
+  .profile-text h5 {
+    margin-left: 0;
+  }
+  .profile-text h5 p {
+    text-align: center;
+  }
+  .location-img {
+    width: 80%;
+    margin: auto;
   }
 }
