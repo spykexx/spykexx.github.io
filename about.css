@@ -1425,15 +1425,17 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 }
 
 .profile-img {
-  margin: 0;
+  margin-top: 35px;
   width: 20%;
   height: 20%;
   vertical-align: middle;
   float: left;
+
 }
 
 .profile-img img {
   border-radius: 5px;
+  margin: auto;
 }
 
 .profile-text {
