@@ -11,11 +11,11 @@ $(document).ready(function(){
         $(this).closest("a").addClass("active");
       }
     });
-    $('#descriptionMobile1').hide();
+    /*$('#descriptionMobile1').hide();
     $('#descriptionMobile2').hide();
     $('#descriptionMobile3').hide();
     $('#descriptionMobile4').hide();
-    $('#description').hide();
+    $('#description').hide();*/
   });
   
   $(document).scroll(function() {
@@ -29,7 +29,7 @@ $(document).ready(function(){
     } 
   });
 
-  $(window).resize(function() {
+  /*$(window).resize(function() {
     if ($(window).width() < 767) {
       $('#description').hide();
    }
@@ -136,4 +136,4 @@ function getText(id) {
   }else {
     return "False";
   }
-}
+}*/
